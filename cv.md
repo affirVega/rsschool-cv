@@ -64,3 +64,45 @@ for (; it != end; ++it)
 return res;
 }
 ```
+
+## Working experience
+
+University projects:
+- [Weather widget](https://github.com/affirVega/Programming/tree/master/Lab/01)  
+  Tools used:  
+  - C++ json, http library
+  - Python tkinter
+  - openweather api
+
+- [Yandex.Alice shopping cart](https://github.com/affirVega/Programming/tree/master/Lab/02)  
+  Tools used:
+  - C++ json, http library
+  - Python excel library
+  - Webhooks (ngrok)
+
+- [Lines game with colored balls](https://github.com/affirVega/Programming/tree/master/Lab/03)  
+  Tools used:
+  - Python tkinter, PIL
+
+- [Image Steganography](https://github.com/affirVega/Programming/tree/master/Lab/05)  
+  <img src="https://github.com/affirVega/Programming/raw/master/Lab/05/docs/gui.png" alt="application ui with several buttons and input form" width=300>  
+  Tools used:
+  - C++
+  - Qt framework
+
+---
+
+## Education
+
+### Programming Engineer
+2020 - present time.  
+Vernadsky Crimean Federal University.
+
+### JS / Frontend. Stage 0
+2022 - present Time.  
+The Rolling Scopes School
+
+## Languages
+
+**Russian**: native speaker  
+**English**: intermediate, understand technical docs, spoke with native speakers
