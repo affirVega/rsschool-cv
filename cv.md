@@ -21,3 +21,46 @@ Some of the projects that I've made:
 - A silly game about a bar fight developed with friends in order to learn Godot: [Island Fighter](https://github.com/affirVega/IslandFighter)
 - Implemented a simple feature for a cross-patform screenshot tool: [Flameshot commit](https://github.com/flameshot-org/flameshot/pulls?q=is%3Apr+up+down+is%3Aclosed)
 
+---
+
+## Skills
+
+I know these technologies:
+
+- C++ OOP, RAII, std
+- Python OOP, decorators, lambda
+- HTML, CSS, JS
+- Java basics
+- Git basics
+- Qt framework
+
+
+## Code example
+
+This code is taken from CodeWars kata "[Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667)". I wrote template function that accepts generic vector of elements and spits out vector of unique elements in order that they appear in the input. Code shows a function for a generic vector and a specialization for a string.
+
+```c++
+#include <string>
+#include <vector>
+
+template <typename T> std::vector<T> uniqueInOrder(const std::vector<T>& iterable){
+if (iterable.size() == 0) { return {}; }
+
+auto it = iterable.begin(), end = iterable.end();
+std::vector<T> res { *( it++ ) };
+for (; it != end; ++it)
+    if (*it != res.back())
+    res.push_back(*it);
+return res;
+}
+std::vector<char> uniqueInOrder(const std::string& iterable){
+if (iterable.size() == 0) { return {}; }
+
+auto it = iterable.begin(), end = iterable.end();
+std::vector<char> res { *( it++ ) };
+for (; it != end; ++it)
+    if (*it != res.back())
+    res.push_back(*it);
+return res;
+}
+```
